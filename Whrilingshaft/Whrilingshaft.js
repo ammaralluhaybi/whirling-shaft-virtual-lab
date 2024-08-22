@@ -1,4 +1,4 @@
-﻿document.getElementById('calculateButton').addEventListener('click', calculateCriticalSpeed);
+document.getElementById('calculateButton').addEventListener('click', calculateCriticalSpeed);
 
 function calculateCriticalSpeed() {
     const shaftLength = parseFloat(document.getElementById('shaftLength').value);
